@@ -39,7 +39,7 @@ if event.action == 'held' and event.direction =='up':
     direction = 2;
     next_position = (getposx , posy+1)
     setpos(next_position)
-if event.action == 'held' and event.direction =='down':
+    if event.action == 'held' and event.direction =='down':
     next_position = (getposx, posy-1)
     direction= -2;
     setpos(next_position)
